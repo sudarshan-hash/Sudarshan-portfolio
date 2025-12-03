@@ -8,7 +8,7 @@ function Navbar() {
             <nav>
                 <div>
                     <img src="/public/images/logo.svg" alt="appele Logo" />
-                    <p className=' font-bold'>{ name }</p>
+                    <p className=' font-bold'>{ `${name}'s portfolio` }</p>
 
                     <ul>
                         {

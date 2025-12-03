@@ -1,5 +1,5 @@
 
-export const name = "Sudarshan's portfolio"
+export const name = "Sudarshan"
 
 const navLinks = [
   {

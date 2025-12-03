@@ -1,3 +1,4 @@
+import { name } from '#constants';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import React, { useRef } from 'react'
@@ -83,7 +84,7 @@ function Welcome() {
     return (
         <section id='welcome' >
 
-            <p ref={subTitle}> {renderText("Hey, I'm Sudarshan Welcome to my", "text-3xl font-georama", 100)} </p>
+            <p ref={subTitle}> {renderText(`Hey, I'm ${ name } Welcome to my`, "text-3xl font-georama", 100)} </p>
             <h1 ref={title} className='mt-7' > {renderText("portfolio", "text-9xl italic font-georama")}</h1>
 
             <div className=' small-screen' >
