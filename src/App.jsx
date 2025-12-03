@@ -1,4 +1,4 @@
-import Navbar from '#components/Navbar'
+import { Navbar, Welcome } from '#components'
 import React from 'react'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
         <Navbar />
       </header>
       <main>
-
+        <Welcome />
       </main>
       <footer>
         
