@@ -1,0 +1,12 @@
+
+// this file also for absolute import 
+
+{
+    "compilerOptions": {
+        "baseUrl":".",
+        "paths": {
+            "#*": ["src/*"]
+        }
+    },
+    "include": ["src"]
+}
